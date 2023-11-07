@@ -127,6 +127,8 @@ Stats:
 
 ## Замеры:
 
+[Датасет](https://data.nasa.gov/api/id/gh4g-9sfh.json?%24select=%60name%60,%60id%60,%60nametype%60,%60recclass%60,%60mass%60,%60fall%60,%60year%60,%60reclat%60,%60reclong%60,%60geolocation%60&%24order=%60:id%60+ASC&%24limit=46000&%24offset=0)
+
 Поиск по индексу:
 ```
 $ php db.php search name "Miller Range 05099"                                                                                                                                                                                                                
@@ -160,6 +162,8 @@ Stats:
 | 3.29 MB     | 5469ms   | 0m 12s     |                    
 +-------------+----------+------------+ 
 ```
+
+Здесь следует обратить внимание именно на `CPU time`.
 
 ## Недостатки
 Очевидно, что файл бд больше, чем json.
