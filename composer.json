@@ -1,0 +1,29 @@
+{
+  "name": "greabock/rerum-cz-btree",
+  "description": "Test assignment for Rerum.cz",
+  "type": "project",
+  "license": "mit",
+  "autoload": {
+    "psr-4": {
+      "Greabock\\RerumCzBtree\\": "src/",
+      "Tests\\": "tests/"
+    },
+    "files": ["utils/helpers.php"]
+  },
+  "authors": [
+    {
+      "name": "Greabock",
+      "email": "grebock@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "halaxa/json-machine": "dev-master",
+    "ext-mbstring": "*",
+    "symfony/console": "^6.3"
+  },
+  "require-dev": {
+    "fakerphp/faker": "2.0.x-dev",
+    "phpunit/phpunit": "^10.4"
+  }
+}
